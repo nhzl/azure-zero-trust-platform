@@ -8,6 +8,15 @@ Terraform-built Azure infrastructure project focused on building a scalable Zero
 - Automate infrastructure deployment using Terraform
 - Align with cloud security frameworks
 
+## Identity Design
+
+This project uses group-based RBAC with Conditional Access enforcement.
+
+![Identity Flow](diagrams/identity-flow.png)
+
+See full design:
+- docs/identity-design.md
+
 ## Structure
 - terraform/: IaC
 - README.md: Project overview and info
