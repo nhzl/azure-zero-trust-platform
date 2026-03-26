@@ -15,7 +15,17 @@
 - Private DNS zone ensures internal resolution
 - Validation requires in-VNet client (compute will be added later)
 
-# Outbound Gap
+## Outbound Gap
 
 - AzureCloud still allowed
 - ToDo: controlled egress through firewall or NAT
+
+
+## Architecture Evidence
+
+![VNet](./images/vnet.png)
+![Subnets](./images/subnets.png)
+![App NSG](./images/nsg-rules-app.png)
+![Data NSG](./images/nsg-rules-data.png)
+![Private Endpoint](./images/private-endpoint.png)
+![Storage Networking](./images/storage-networking.png)
